@@ -1,5 +1,7 @@
 // This API route is designed to test the Edge Runtime capabilities.
 
+export const runtime = 'edge'
+
 export default function handler(req, res) {
     // Accessing the request headers
     const userAgent = req.headers['user-agent'] || 'Unknown';
